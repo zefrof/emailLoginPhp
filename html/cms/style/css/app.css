@@ -1,0 +1,173 @@
+/* Fonts */
+/*(can be moved to html head/footer if need be, via this text:<link href="https://fonts.googleapis.com/css?family=Poppins:300|Roboto:500,700&display=swap" rel="stylesheet">*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300|Roboto:500,700&display=swap');
+
+
+/*General Styles*/
+body {
+    background-color: #F8F8F8;
+}
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background-color:#06CEFF;
+    color: #F8F8F8;
+    text-align: right;
+    padding: 10px 30px;
+	}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #949494;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #949494;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #949494;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #949494;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #949494;
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #949494;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #949494;
+    margin: 0px;
+}
+a {
+    color: #949494;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF67C8;
+    -webkit-transition: .5s; /* Safari 6.0 & earlier */
+    transition: .5s;
+}
+a:active {
+    color: #949494;
+}
+hr {
+    color: #949494; 
+}
+
+/*Spicy shit that doesn't need to be here but is cool nonetheless*/
+::-moz-selection { /* for Firefox */
+    background-color: #FEBCE4;
+}
+
+::selection {
+    background-color: #FEBCE4;
+}
+
+/*Input nonsense*/
+input {
+    margin: 20px 0px;
+    width: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=text] {
+    padding: 10px;
+    border: 1px solid #949494;
+    color: #949494;
+    width: 20%;
+}
+input[type=text]:hover, input[type=text]:focus {
+    border: 1px solid #FF67C8;
+    box-shadow: none;
+    background-color: #FFF0F9;
+    -webkit-transition: .5s; /* Safari 6.0 & earlier */
+    transition: .5s;
+}
+input[type=password] {
+    padding: 10px;
+    border: 1px solid #949494;
+    color: #949494;
+    width: 20%;
+}
+input[type=password]:hover, input[type=password]:focus {
+    border: 1px solid #FF67C8;
+    box-shadow: none;
+    background-color: #FFF0F9;
+    -webkit-transition: .5s; /* Safari 6.0 & earlier */
+    transition: .5s;
+}
+input[type=email] {
+    padding: 10px;
+    border: 1px solid #949494;
+    color: #949494;
+    width: 20%;
+}
+input[type=email]:hover, input[type=email]:focus {
+    border: 1px solid #FF67C8;
+    box-shadow: none;
+    background-color: #FFF0F9;
+    -webkit-transition: .5s; /* Safari 6.0 & earlier */
+    transition: .5s;
+}
+input[type=submit] {
+    padding: 10px;
+    background-color: #F8F8F8;
+    color: #FF67C8;
+    box-shadow: none;
+    border: 1px solid #FF67C8;
+}
+input[type=submit]:hover {
+    color: #F8F8F8;
+    background-color: #FF67C8;
+    -webkit-transition: .5s; /* Safari 6.0 & earlier */
+    transition: .5s;
+}
+
+/*nav things*/
+nav a {
+    text-decoration: none;
+}
+
+/*Custom Classes*/
+.mainBG {
+    background-color: ;
+    border-bottom: 1px solid #949494;
+    margin: 0px 30px;
+    padding: 30px 0px;
+}
+.mainBG h2 {
+    color: #FF67C8;
+}
+.padded {
+    padding: 30px;
+}
+.eightyPerc {
+    width: 80%;
+}
+.centerParent {
+    width: 99%;
+}
+.centerChild {
+    display: inline-block;
+    width: 99%;
+}
